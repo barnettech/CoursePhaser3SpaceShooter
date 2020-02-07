@@ -49,9 +49,9 @@ class SceneMainMenu extends Phaser.Scene {
       this.scene.start("SceneMain");
     }, this);
 
-    this.title = this.add.text(this.game.config.width * 0.5, 128, "SPACE SHOOTER", {
+    this.title = this.add.text(this.game.config.width * 0.5, 128, "THE SKY IS FALLING", {
       fontFamily: 'monospace',
-      fontSize: 48,
+      fontSize: 28,
       fontStyle: 'bold',
       color: '#ffffff',
       align: 'center'
